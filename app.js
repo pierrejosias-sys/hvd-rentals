@@ -1,0 +1,1 @@
+import Link from 'next/link'\nexport default function Home() { return ( <div className='min-h-screen bg-black text-white p-6'><h1 className='text-4xl font-bold mb-4'>HVD RENTALS</h1><p className='text-gray-400 mb-8'>Premium vehicle rentals in Jacksonville, FL</p><Link href='/vehicles' className='inline-block bg-white text-black px-6 py-3 font-bold'>VIEW VEHICLES</Link></div> )}
